@@ -1,0 +1,50 @@
+.footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    height: 19vh;
+    margin-top: 2px;
+  
+ 
+}
+.footer-container{
+  
+    display: flex;
+    margin-top: 10px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer .footer-container .left p3{
+ color: rgb(255, 255, 255);
+ font-family: sans-serif;
+
+ 
+}
+
+.footer .footer-container .left .location{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer .footer-container .left .phone{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer .footer-container .left .email{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}

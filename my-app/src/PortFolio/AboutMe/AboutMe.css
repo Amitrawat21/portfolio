@@ -1,0 +1,157 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    height: 87.5vh;
+  gap: 20px;
+    align-items: center;
+background-color: aquamarine;
+min-height: fit-content;
+background-image: url('https://wallup.net/wp-content/uploads/2016/05/26/274872-digital_art-dark-Tile-cube.jpg');
+
+background-size: cover;
+background-position: center;
+object-fit: cover;
+
+
+  
+}
+
+.sum-container{
+    color: white;
+    font-style: italic;
+   
+}
+.Container .sum-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.container-about_container{
+    display: flex;
+    height: 80%;
+justify-content: flex-start;
+gap: 30px;
+align-items: center;
+
+width: 100vw;
+}
+
+.about_content{
+ 
+    height: 90%;
+    width: 60%;
+    display: flex;
+    margin-right: 20px;
+    color: white;
+ 
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+    gap: 40px;
+}
+.content h2{
+    color: blue;
+    font-family: initial;
+    outline-style: hidden;
+}
+
+.content-detail{
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+ 
+ 
+}
+
+
+
+
+
+
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    box-shadow: 0 1px 0px 0px var(white) ;
+    border-radius: 50%;
+    height: 480px;
+    width: 400px;
+    margin:  0 0 0 100px;
+}
+
+.about-image{
+    height: 90%;
+    width: 92%;
+    background-image: url("../../assets/Home//amit\ \(2\).jpeg");
+   
+background-size: cover;
+
+object-fit: cover;
+   background-size: cover;
+   border-radius: 50%;
+  
+}
+
+
+
+
+
+
+@media  (max-width : 768px){
+
+    .Container{
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 90px;
+        box-shadow: 0 1px 0px 0px var(white) ;
+        border-radius: 50%;
+        height: 225px;
+        width: 220px;
+
+    }
+    .container-about_container{
+        display: flex;
+        width: 90%;
+        height: 70%;
+        margin-bottom: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+ 
+       
+    }
+
+    .about_content{
+        width: 90%;
+        margin: auto;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+

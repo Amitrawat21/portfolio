@@ -1,0 +1,316 @@
+
+
+
+.body{
+    position: relative;
+    background-color: rgb(147, 242, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 92vh;
+    
+}
+
+
+
+.containers{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+   margin: 30px 0;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      box-shadow: 0 35px 55px rgb(0, 0, 0)
+}
+
+.containers .left-side{
+    position: relative;
+   background-color: rgb(42, 42, 71);
+ 
+   min-height: 1000px;
+ 
+
+}
+
+
+.profileText{
+    position: relative;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1.5rem red;
+}
+
+.profileText .imgBx{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+
+}
+
+.profileText .imgBx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.profileText h2  {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+.profileText span{
+    color: white;
+    font-size: 1.0rem;
+    font-weight: 10;
+}
+
+
+.left-side .contactInfo{
+   
+    padding: 40px;
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+.left-side .contactInfo .title{
+    color: white;
+}
+
+
+.left-side .contactInfo ul {
+    width: 100%;
+    display: flex;
+  
+    flex-direction: column;
+  
+  align-items: flex-start;
+
+   padding: 10px;
+   margin: 0px;
+
+}
+
+.left-side .contactInfo ul li{
+   
+    display: flex;
+    margin: 10px 0px;
+  
+    justify-content: flex-start;
+    text-align: center;
+    
+    gap: 10px;
+    padding: 5px;
+}
+
+.left-side .contactInfo ul li .text{
+    color: white;
+}
+
+.left-side .contactInfo ul  li .icon{
+    color: rgb(0, 76, 255);
+}
+
+
+
+.left-side .education ul li{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.left-side .education ul li h6{
+    text-align: start;
+    font-weight: 500;
+   color: whitesmoke;
+}
+.left-side .education ul li :last-child{
+    font-weight: 1;
+ 
+}
+.left-side .education ul li :first-child{
+    font-weight: 500;
+    color: rgb(81, 111, 164);
+ 
+}
+
+.left-side .language ul li{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.left-side .language div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: cornflowerblue;
+}
+
+
+.left-side .contactInfo .percentage{
+    background-color: blueviolet;
+    position: relative;
+    width: 100%;
+    height: 6px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+.containers .right-side{
+    position: relative;
+    background-color: rgb(250, 250, 255);
+    padding: 40px;
+    min-height: 1000px;
+   
+}
+.about{
+    margin-bottom: 50px;
+
+}
+.about :last-child {
+    margin-bottom: 0;
+}
+
+.title2{
+    color: rgb(26, 26, 45);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 700;
+
+}
+
+  
+.title2 p{
+    color: rgb(30, 20, 39);
+}
+
+
+
+
+.skills{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+
+.skills .box{
+    position: relative;
+  
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    padding: 5px;
+  margin-right: 9px;
+
+}
+
+
+.skills .box h6{
+    color: rgb(157, 161, 167);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+
+.skills .box .percentage{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(179, 179, 179);
+
+}
+
+.skills .box .percentage div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: blue;
+}
+
+.interest{
+    display: flex;
+  flex-direction: column;
+align-items: flex-start;
+
+}
+
+.interest ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+
+
+}
+.interest ul li{
+
+   margin-right: 30px;
+   padding: 4px;
+list-style: none;
+
+
+
+}
+
+.interest ul li .icon{
+   
+    color: rgb(13, 186, 220);
+
+}
+
+
+
+
+@media  (max-width : 768px){
+
+    .containers{
+     
+      display:  flex;
+      flex-direction: column;
+    }
+
+    .interest ul {
+        width: 95%;
+  
+        
+    }
+
+    .interest ul li{
+
+    
+     list-style: none;
+     margin-right: 9px;
+     
+     
+     
+     }
+
+  
+    
+
+}
