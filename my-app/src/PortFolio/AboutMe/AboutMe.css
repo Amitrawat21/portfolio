@@ -66,6 +66,10 @@ width: 100vw;
     display: flex;
     flex-direction: column;
     gap: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: rgb(245, 242, 242);
     
  
  

@@ -15,11 +15,7 @@ const Contactme = () => {
        <div className="contact">
       <div className="contentents">
         <h2>contact us</h2>
-        <p>
-          lorem30bfnjjj jfjjf jkf hhf ksd fhh amit bd osf bcjf fohf dbfzld fdhhf
-          dfldfdlsffhl fs lfhfhf f d h fs fhhfhf hfuhfh esfhfhefhse fes fohf es
-          fos fose fshsssssssssssssssssssssssssssssss
-        </p>
+        
       </div>
 
       <div className="container">
@@ -50,7 +46,7 @@ const Contactme = () => {
             </div>
             <div className="text">
               <h3>email</h3>
-              <p>rawatamit8282gmail</p>
+              <p>rawatamit8282@gmail.com</p>
             </div>
           </div>
         </div>

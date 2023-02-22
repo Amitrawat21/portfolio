@@ -46,7 +46,9 @@ const Project = () => {
               </p>
             </div>
             <div className='project-download'>
-               <button  >view</button>
+            <a href="https://aquamarine-platypus-c7a60f.netlify.app/">
+            <button  >view</button>
+            </a>
                <button>download</button>
             </div>
           </div>
@@ -68,7 +70,9 @@ const Project = () => {
               </p>
             </div>
             <div className='project-download'>
+            <a href="https://gregarious-platypus-a6714d.netlify.app/">
             <button  >view</button>
+            </a>
                <button>download</button>
             </div>
           </div>
@@ -88,7 +92,9 @@ const Project = () => {
               </p>
             </div>
             <div className='project-download'>
+            <a href="https://incredible-custard-892a56.netlify.app/">
             <button  >view</button>
+            </a>
                <button>download</button>
             </div>
           </div>
@@ -108,7 +114,9 @@ const Project = () => {
               </p>
             </div>
             <div className='project-download'>
+            <a href="">
             <button  >view</button>
+            </a>
                <button>download</button>
             </div>
           </div>
@@ -123,12 +131,15 @@ const Project = () => {
             </div>
             <div className='project-detail'>
               <h4>MOVIE APP</h4>
-              <p>this is react movie app and this movie app contain favourite movie,latest movie  ggggffffffffffffffffffffffffffffffffggggggggggggggggggggggggggggggggggggggggg
+              <p>this is react movie app and this movie app contain favourite movie,latest movie.
                
               </p>
             </div>
             <div className='project-download'>
+            <a href="https://illustrious-daffodil-50f495.netlify.app/">
             <button  >view</button>
+            </a>
+        
                <button>download</button>
             </div>
           </div>

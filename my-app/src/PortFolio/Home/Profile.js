@@ -63,7 +63,7 @@ const Profile = () => {
               ></Typical>
             </h1>
             <span  className="profile-role-tag-line">
-              this is not india this is brazil and this is my confitunity
+            Success is not final; failure is not fatal: It is the courage to continue that counts.
             </span>
           </span>
         </div>
@@ -73,7 +73,7 @@ const Profile = () => {
             { " "}
             Hire Me
           </button >
-          <a href="RESUME PDF.pdf"  download  = "RESUME PDF.pdf">
+          <a href="ResumeC.pdf"  download  = "ResumeC.pdf">
             <button className=" btn highlighted-btn">Get Resume</button>
           </a>
         </div>

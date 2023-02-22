@@ -39,16 +39,25 @@ const AboutMe = () => {
               <h2>ABOUT</h2>
               <div className="content-detail">
                 <h5>
-                  this is amit rawat a full stack webdeveloper i love combining the worlds of
-                  logic and creative desgin to make eye catching , accessible and user friendy website and application
-                  . Seeking to leverage proficiency in React , node js, SQL, mongoose,
-                  JavaScript , html and CSS in a full-time career as a full-stack
-                  developer .
+                  My Career Objective is to work with an organization that can
+                  help me grow technically and professionally . I want to
+                  fullfill utilize my skills to make significant contribute to
+                  the success of the employer in addition to my individual
+                  growth.Seeking a challenging and rewarding opportunity with an
+                  organization which recognizes and utilizes my true potential.
+                </h5>
+                <h5>
+                  this is amit rawat a full stack webdeveloper i love combining
+                  the worlds of logic and creative desgin to make eye catching ,
+                  accessible and user friendy website and application . Seeking
+                  to leverage proficiency in React , node js, SQL, mongoose,
+                  JavaScript , html and CSS in a full-time career as a
+                  full-stack developer .
                 </h5>
 
                 <h5>
-                   i am excited to make the leap and continue refining m skill with 
-                   right company
+                  i am excited to make the leap and continue refining m skill
+                  with right company
                 </h5>
               </div>
             </div>

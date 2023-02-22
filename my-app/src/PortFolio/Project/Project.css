@@ -3,7 +3,7 @@
     flex-direction: column;
      gap: 20px;
      background-color: black;
-     background: url("https://wallup.net/wp-content/uploads/2016/05/26/274872-digital_art-dark-Tile-cube.jpg");
+ 
      background-size: cover;
  background-position: center;
  object-fit: cover;
@@ -17,7 +17,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: cornflowerblue;
+    color: rgb(255, 255, 255);
 }
 
 .All_project{
@@ -40,11 +40,11 @@
     flex-direction: column;
     border-radius: 10px;
     justify-content: space-evenly;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 align-items: center;
   margin: 30px;
   height: 440px;
-  background-color: rgb(168, 166, 166);
+  background-color: rgb(134, 6, 214);
  
 
 

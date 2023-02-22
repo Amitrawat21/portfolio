@@ -32,7 +32,7 @@ const Resume = () => {
                   <span className="icon">
                     <FontAwesomeIcon icon={faPhone} />
                   </span>
-                  <span className="text">9999569851</span>
+                  <span className="text">7011680391</span>
                 </li>
                 <li>
                   <span className="icon">
@@ -44,7 +44,7 @@ const Resume = () => {
                   <span className="icon">
                     <FontAwesomeIcon icon={faLocation} />
                   </span>
-                  <span className="text"> Indirapuram, Ghaiziabad</span>
+                  <span className="text"> NitiKhand-3,Indirapuram,gzb</span>
                 </li>
                 <li>
                   <span className="icon">
@@ -59,27 +59,27 @@ const Resume = () => {
               <h5 className="title">EDUCATION</h5>
               <ul>
                 <li>
-                  <h6>2010 - 2013</h6>
-                  <h6>Master Degree i computer</h6>
-                  <h6>university name</h6>
+                  <h6>2013- 2015</h6>
+                  <h6>Secondary School</h6>
+                  <h6>Ralli International School</h6>
                 </li>
 
                 <li>
-                  <h6>2010 - 2013</h6>
-                  <h6>Master Degree i computer</h6>
-                  <h6>university name</h6>
+                  <h6>2015 - 2017</h6>
+                  <h6>High School</h6>
+                  <h6>Ralli Internstional School</h6>
                 </li>
 
                 <li>
-                  <h6>2010 - 2013</h6>
-                  <h6>Master Degree i computer</h6>
-                  <h6>university name</h6>
+                  <h6>2017 - 2021</h6>
+                  <h6>Mechanical Branch</h6>
+                  <h6>Inderprastha Engineeing College</h6>
                 </li>
               </ul>
             </div>
 
             <div className="contactInfo language">
-              <h5 className="title">LANGUAGEs</h5>
+              <h5 className="title">LANGUAGE</h5>
               <ul>
                 <li>
                   <span className="text">hindi</span>
@@ -99,89 +99,106 @@ const Resume = () => {
           </div>
           <div className="right-side">
             <div className="about">
-              <h4 className="title2">Profile</h4>              <p>
-                This simple Lorem Ipsum generator tool generates Lorem Ipsum
-                according to the variety of parameters you may wish to set.
-                Lorem Ipsum is essentially placeholder text that is often used
-                by designers to test how their product will look once text has
-                been inputted. Ipsum in its current form has been around since
-                the 1960's and today is a cornerstone of dummy text for
-                designers. Of course in the age of the web text is often
-                formatted in an array of ways by HTML tags. This tool allows you
-                to experiment with a variety of important HTML elements that
-                your web page is most likely to employ; ones you may have
-                overlooked. I can't tell you how many sites I have come across
-                which don't use basic styling rules for elements such as which
-                is just one of many reasons why front-end developers should be
-                using a Lorem Ipsum generator like the one above religiously.
+              <h4 className="title2">Profile</h4>{" "}
+              <p>
+              My Career Objective is to work with an organization that can
+                  help me grow technically and professionally . I want to
+                  fullfill utilize my skills to make significant contribute to
+                  the success of the employer in addition to my individual
+                  growth.Seeking a challenging and rewarding opportunity with an
+                  organization which recognizes and utilizes my true potential.
               </p>
             </div>
 
-            <div  className="about skills">
+            <div className="about skills">
               <h4 className="title2">Professional skills</h4>
               <div className="box">
                 <h6>JAVA SCRIPT</h6>
                 <div className="percentage">
-                  <div style={{width : "86%"}}></div>
+                  <div style={{ width: "86%" }}></div>
                 </div>
               </div>
 
               <div className="box">
                 <h6>HTML</h6>
                 <div className="percentage">
-                <div style={{width : "90%"}}></div>
+                  <div style={{ width: "90%" }}></div>
                 </div>
               </div>
-
 
               <div className="box">
                 <h6>CSS</h6>
                 <div className="percentage">
-                <div style={{width : "85%"}}></div>
+                  <div style={{ width: "85%" }}></div>
                 </div>
               </div>
 
               <div className="box">
                 <h6>NODE JS</h6>
                 <div className="percentage">
-                <div style={{width : "75%"}}></div>
+                  <div style={{ width: "75%" }}></div>
                 </div>
               </div>
 
               <div className="box">
                 <h6>REACT</h6>
                 <div className="percentage">
-                <div style={{width : "89%"}}></div>
+                  <div style={{ width: "89%" }}></div>
                 </div>
               </div>
-
 
               <div className="box">
                 <h6>MONGO DB</h6>
                 <div className="percentage">
-                <div style={{width : "70%"}}></div>
+                  <div style={{ width: "70%" }}></div>
                 </div>
               </div>
 
               <div className="box">
                 <h6>SQL</h6>
                 <div className="percentage">
-                <div style={{width : "67%"}}></div>
+                  <div style={{ width: "67%" }}></div>
                 </div>
               </div>
 
+              <div className="box">
+                <h6>JAVA</h6>
+                <div className="percentage">
+                  <div style={{ width: "50%" }}></div>
+                </div>
+              </div>
 
+              <div className="box">
+                <h6>DATA STRUCTURE AND ALOGO</h6>
+                <div className="percentage">
+                  <div style={{ width: "61%" }}></div>
+                </div>
+              </div>
+
+              <div className="box">
+                <h6>OOPS CONCEPT</h6>
+                <div className="percentage">
+                  <div style={{ width: "80%" }}></div>
+                </div>
+              </div>
             </div>
 
-            <div  className="interest">
-            <h4 className="title2">Interest</h4>
-            <ul>
-              <li><FontAwesomeIcon className="icon" icon={faHeadset}/>gameing</li>
-              <li><FontAwesomeIcon className="icon" icon={faMusic}/> singing</li>
-              <li><FontAwesomeIcon className="icon" icon={faTv} />webseries </li>
-              <li><FontAwesomeIcon className="icon" icon={faTv} /> webseries </li>
-            </ul>
-
+            <div className="interest">
+              <h4 className="title2">Interest</h4>
+              <ul>
+                <li>
+                  <FontAwesomeIcon className="icon" icon={faHeadset} />
+                  gameing
+                </li>
+                <li>
+                  <FontAwesomeIcon className="icon" icon={faMusic} /> singing
+                </li>
+                <li>
+                  <FontAwesomeIcon className="icon" icon={faTv} />
+                  webseries{" "}
+                </li>
+                
+              </ul>
             </div>
           </div>
         </div>
